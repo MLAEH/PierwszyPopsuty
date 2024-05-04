@@ -6,10 +6,10 @@ public class Company {
     public static void main(String[] args) {
         Employee[] Employees = new Employee[5];
         
-        Employees[0] = new Manager ("Michał Lenard", 20000, 0);
+        mployees[0] = new Manager ("Michał Lenard", 20000, 0);
         Employees[1] = new Worker("Jan Kowalski", 10000, "pracownik");
-        Employees[2] = new Worker("Szymon Nowak", 5000, "pracownik");
-        Employees[3] = new Worker("Piotr Kropka", 6000, "pracownik");
+        Employees[2] = new Employee("Szymon Nowak", 5000);
+        Employees[3] = new Employee("Piotr Kropka", 6000);
         Employees[4] = new Worker("Aneta Marzec", 7000, "pracownik");
 
         System.out.println("Dane o wszystkich pracownikach:");
