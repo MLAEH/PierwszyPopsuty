@@ -5,7 +5,7 @@ import employees.Worker;
 public class Company {
     
     public static void main(String[] args) {
-        Employee[] Employees = new Employee[7];
+        Employee[] Employees = new Employee[5];
         
         Employees[0] = new Manager ("Michał Lenard", 20000, 0);
         Employees[1] = new Worker("Jan Kowalski", 10000, "pracownik");
